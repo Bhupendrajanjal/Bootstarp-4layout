@@ -1,0 +1,123 @@
+
+.mainheader .navbar-brand{
+    width: 120px;
+}
+.mainheader .navbar-brand img{
+    width: 100%;
+}
+ /* if you add css width 50% that time resposive design are not operate */
+
+ .mainheader .navbar-nav .nav-link{
+    color: white;;
+    text-transform: uppercase;
+ }
+
+.mainheader .navbar-nav .Active .nav-link{
+    color: orange;
+    border-bottom: 2px solid orange;
+    text-transform: uppercase;
+}
+.mainheader .navbar-nav .nav-item .nav-link:active,
+
+.mainheader .navbar-nav .nav-item .nav-link:hover{
+    color: orange;
+    border-bottom: 2px solid orange;
+
+}
+/* Css for main Slider */
+.mainSidebar .carousel-item{
+    height: 450px;
+  
+   
+}
+.mainSidebar .carousel-item img{
+    height: 100%;
+    width: 100%;
+    object-fit:  cover;
+}
+.mainSidebar .carousel-caption{
+    bottom: auto;
+    top: 25%;
+}
+.paralaxhome{
+    background-image:linear-gradient(to right,rgba(0, 0, 0,0.7) ,rgba(0, 0, 0,0.7)), url(/assets/images/lights.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.video{
+    background-image:linear-gradient(to right,rgba(0, 0, 0,0.7) ,rgba(0, 0, 0,0.7)), url(/assets/images/media.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.video i{
+    cursor: pointer;
+}
+.home-Gallary a{
+    height: 350px;
+    width:250px;
+     
+}
+.home-Gallary a > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all .8s ease-in-out;
+}
+.home-Gallary img:hover{
+    transform:rotateX(90deg);
+    /* transform: rotateY(90deg);
+    transform: rotateZ('90deg'); */
+}
+.footer{
+    background-color: #000;
+    color: #fff;
+}
+
+/* about us  css */
+
+.owl-nav{
+    position: absolute;
+    top: 45%;
+    left: -10%;
+    /* border: 2px solid red; */
+    width: 120%;
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    text-align: justify;
+}
+
+.item>img{
+    border: 2px solid red;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+.item>img:hover{
+    border: 5px solid red;
+    transform: translateZ(20%);
+}
+.testimonials p{
+    padding: 4px;
+    /* border: 2px solid red; */
+}
+.staff img{
+    width: 100%;
+    border: 3px solid white;
+    margin-bottom: 20px;
+ 
+
+}
+.info img{
+    /* border: 2px solid red; */
+    transition: all .8s  ease-in-out;
+}
+.info img:hover{
+    transform:rotateX(90deg);
+    transform: rotateY(90deg);
+    transform: rotateZ('90deg');
+    /* transition: all .8s ease; */
+}
